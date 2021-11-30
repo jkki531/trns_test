@@ -44,7 +44,7 @@
 ;[plugin name="chat_story" ]
 
 [font size=26 ]
-[chat_config face_width=100 under_height=700 top=190]
+[chat_config face_width=100 under_height=700 top=134]
 
 
 ;===============여기부터 채팅 부분 ==========================
@@ -120,11 +120,8 @@
 [bg storage="bgchat.png" time="100"]
 [font size=26 color="0x000000"]
 
-
-[layopt layer=1 visible=true]
-[image layer="1" x="0" y="0" storage="chframe.png"]
 [layopt layer=2 visible=true]
-[image layer="2" x="326" y="87" storage="fsensei.png"]
+[image layer="2" x="301" y="10" storage="fsensei.png"]
 
 
 [chat_talk pos="right"  face="chat/else/yuji.png" text="그래서말야"]
@@ -135,7 +132,6 @@
 [chat_talk pos="left" face="chat/else/finger.png" name="사토루" bgcolor="0xFFFFFF" text="얘기&nbsp;하다말고&nbsp;어디&nbsp;간거야" ]
 
 [layopt layer="message0" visible=false ]
-
 
 [button name="role_button" role="save" graphic="button/save.png" x=20 y=1186]
 [button name="role_button" role="load" graphic="button/load.png" x=190 y=1186]
@@ -159,7 +155,6 @@
 [chat_talk pos="right"  face="chat/else/yuji.png" text="미안&nbsp;사토루군"][p]
 [chat_talk pos="right"  face="chat/else/yuji.png" text="잠깐&nbsp;졸았나봐"][p]
 
-
 [chat_talk pos="left" face="chat/else/finger.png" name="사토루" bgcolor="0xFFFFFF" text="어쩐지" ][p]
 
 ;====
@@ -173,7 +168,7 @@
 나에겐 채팅친구가 있다.[p]
 이름은 사토루.[l][r]
 얼마전 우연한 계기로 친해지게 되었다.[p]
-직접 만나본 적은 없다.[r][l]얼굴도 나이도 비밀.[r][l]내가 아는 건 사토루라는 닉네임 뿐이다.[p]
+직접 만나본 적은 없다.[r][l]얼굴도 나이도 비밀.[r][l]내가 아는 건 사토루라는 닉네임 뿐이다.[l][r]4줄 확인[p]
 
 
 좋아하는 사람이랑 똑같은 이름이라[r]조금 쑥스러워[p]...[l][r]...[p]...어?[l][r]저기 저 눈에 확 띄는 백발 거인은...[p]
@@ -218,8 +213,6 @@
 [chat_config name_font_color="0x000000"]
 
 [bg storage="bgchat.png" time="100"]
-[layopt layer=1 visible=true]
-[image layer="1" x="0" y="0" storage="chframe.png"]
 [layopt layer=2 visible=true]
 [image layer="2" x="326" y="50" storage="fsensei.png"]
 [p]
@@ -299,8 +292,6 @@
 
 [chat_clear]
 
-[layopt layer=1 visible=true]
-[image layer="1" x="0" y="0" storage="chframe.png"]
 [layopt layer=2 visible=true]
 [image layer="2" x="326" y="50" storage="fsensei.png"]
 [bg storage="bgchat.png" time="100"]
