@@ -137,11 +137,11 @@
 [layopt layer="message0" visible=false ]
 
 
-[button name="role_button" role="save" graphic="button/save.png" x=20 y=10]
-[button name="role_button" role="load" graphic="button/load.png" x=190 y=10]
-[button name="role_button" role="backlog" graphic="button/log.png" x=360 y=10]
-[button name="role_button" role="skip" graphic="button/skip.png" x=530 y=10]
-[button name="role_button" role="title" graphic="button/title.png" x=700 y=10]
+[button name="role_button" role="save" graphic="button/save.png" x=20 y=1186]
+[button name="role_button" role="load" graphic="button/load.png" x=190 y=1186]
+[button name="role_button" role="backlog" graphic="button/log.png" x=360 y=1186]
+[button name="role_button" role="skip" graphic="button/skip.png" x=530 y=1186]
+[button name="role_button" role="title" graphic="button/title.png" x=700 y=1186]
 
 [mask_off]
 
