@@ -33,7 +33,7 @@
 
 [glink color="pink" target="*first" text="처음부터" size=50 width="200" x=383 y=851]
 
-[glink color="white" target="*loadmenu" text="불러오기" size=50 width="200" x=254 y=1050]
+[glink color="white" target="*loadmenu" text="불러오기" size=50 width="200" x=304 y=1050]
 
 
 
